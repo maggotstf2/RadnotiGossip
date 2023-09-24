@@ -26,19 +26,20 @@ body{
 }
 
 
-.tabla{
+/* .tabla{
     text-align: center;
-}
+    justify-content:center;
+} */
 
 .subtitle{
     font-family:cursive;
     text-align: center;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 }
 .text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 15px;
-    margin-left: 50px;
+    /* padding: 15px; */
+    /* margin-left: 50px; */
 }
 .footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,7 +47,7 @@ body{
     text-align: center;
 }
 
-#td{
+/* #td{
     padding: 0px;
     text-align: center;
 }
@@ -57,7 +58,62 @@ td a{
 }
 td a:hover{
     background-color: #c8c8c8;
-}
+} */
+
 .kep{
-    width:75%;
+    height: 450px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.text-box{
+    /* margin: 100px; */
+    font-size: large;
+    padding-right: 25px;
+}
+
+nav{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #fff;
+}
+
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links button{
+    padding: 9px 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+.links button:hover{
+    background-color: #c5c5c5;
 }
