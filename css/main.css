@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fef3e2;
+}
+
+.head{
+    background-color: #fff;
+    padding:25px;
+}
+
+.logo{
+    font-family: 'Monoton', 'Bauhaus 93',cursive;
+    text-align: center;
+    font-size: 75px;
+    /* ylw: ffe100 */
+    /* blu: 3a99f2 */
+    /* 72770037471 */
+}
+
+
+.tabla{
+    text-align: center;
+}
+
+.subtitle{
+    font-family:cursive;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin-left: 50px;
+}
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+#td{
+    padding: 0px;
+    text-align: center;
+}
+td a{
+    text-decoration: none;
+    cursor:pointer;
+    color: black;
+}
+td a:hover{
+    background-color: #c8c8c8;
+}
+.kep{
+    width:75%;
+}
