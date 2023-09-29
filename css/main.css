@@ -14,12 +14,13 @@ body{
 .head{
     background-color: #fff;
     padding:25px;
+    width: 100%;
 }
 
 .logo{
     font-family: 'Monoton', 'Bauhaus 93',sans-serif;
     text-align: center;
-    font-size: 75px;
+    font-size: 600%;
     /* ylw: ffe100 */
     /* blu: 3a99f2 */
     /* 72770037471 */
@@ -45,28 +46,13 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 15px;
     text-align: center;
-    position: absolute;
-    right: 0;
+    margin-top: 3%;
+    /* position: fixed; */
+    /* right: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
 }
 
-/* #td{
-    padding: 0px;
-    text-align: center;
-}
-td a{
-    text-decoration: none;
-    cursor:pointer;
-    color: black;
-}
-td a:hover{
-    background-color: #c8c8c8;
-} */
-
-.kep{
-    height: 450px;
-}
 
 .wrapper{
     display: flex;
@@ -77,16 +63,15 @@ td a:hover{
 }
 
 .text-box{
-    /* margin: 100px; */
-    font-size: large;
-    padding-right: 25px;
+    font-size: 115%;
+    margin-left: 4%;
 }
 
 nav{
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 1%;
     padding-left: 10%;
     padding-right: 10%;
     background-color: #fff;
@@ -116,6 +101,7 @@ li, a, button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.2s ease 0s;
+    object-fit: cover;
 }
 
 .links button:hover{
@@ -125,10 +111,20 @@ li, a, button{
 .imgContainer img{
     border-radius: 25px;
     object-fit: cover;
+    /* height: 15%; */
+    width: 75%;
+    margin-left: 10%;
 }
+
 
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* .container li{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+} */
