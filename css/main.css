@@ -1,3 +1,4 @@
+/* 72770037471 */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 *{
@@ -18,22 +19,6 @@ body{
     width: 100%;
 }
 
-.logo{
-    width: 25%;
-    text-align: center;
-    align-items: center;
-    /* font-family: 'Monoton', 'Bauhaus 93',sans-serif; */
-    font-size: 600%;
-    /* ylw: ffab00 */
-    /* blu: 3a99f2 */
-    /* 72770037471 */
-}
-
-
-/* .tabla{
-    text-align: center;
-    justify-content:center;
-} */
 
 .subtitle{
     font-family:'Montserrat',Tahoma, Verdana, sans-serif;
@@ -140,6 +125,8 @@ li, a, button{
 }
 
 .svgContainer img{
+    /* ylw: ffab00 */
+    /* blu: 3a99f2 */
     height: 100%;
     width: 25%;
     margin-bottom: 2%;
