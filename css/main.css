@@ -134,14 +134,14 @@ li, a, button{
     margin-right: 5%;
 } */
 
+
+.svgContainer{
+    text-align: center;
+}
+
 .svgContainer img{
     height: 100%;
     width: 25%;
-    /* align-items: center;
-    justify-content: center;
-    text-align: center; */
-    margin-left: 38%;
-    margin-right: 38%;
     margin-bottom: 2%;
     
 }
